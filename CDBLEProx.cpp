@@ -3,7 +3,7 @@ CDBLEProximity::CDBLEProximity(SoftwareSerial *softserial,CDBLEProximity_event_h
  ss = softserial;
  callback_event_handler = handler;
 }
-
+ 
 void CDBLEProximity::begin() {
   LAST_DEV_COUNT = 0;
   
